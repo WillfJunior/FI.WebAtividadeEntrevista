@@ -1,0 +1,45 @@
+﻿<div class="modal fade" id="modalBeneficiarios" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Beneficiarios</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+
+                    <div class="col-md-5">
+                        <label for="cpfBeneficiario:">CPF:</label>
+                        <input type="text" id="cpfBeneficiario" class="form-control" />
+                    </div>
+                    <div class="col-md-5">
+                        <label for="nomeBeneficiario">Nome:</label>
+                        <input type="text" id="nomeBeneficiario" class="form-control" />
+                    </div>
+                    <div class="col-md-2" style="margin-top:4%">
+                        <button type="button" class="btn btn-success mb-2" id="incluirBeneficiario">Incluir</button>
+                    </div>
+
+
+                </div><br />
+                <div class="row">
+                    <div class="col-md-4">
+                        <label>CPF</label>
+                    </div>
+                    <div class="col-md-4">
+                        <label>Nome</label>
+                    </div>
+                </div>
+                <div class="row" id="beneficiariosIncluir">
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                
+            </div>
+        </div>
+    </div>
+</div>
